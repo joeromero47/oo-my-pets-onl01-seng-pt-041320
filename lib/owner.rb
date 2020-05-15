@@ -62,7 +62,8 @@ class Owner
   
   def list_pets
     num_dogs = self.dogs.size
-    return "I have #{num_dogs} dog(s), and #{@owner.cats.count} cat(s)."
+    num_cats = self.cats.size
+    return "I have #{num_dogs} dog(s), and #{num_cats} cat(s)."
   end
   #"I have #{@owner.dogs.count} dog(s), and #{@owner.cats.count} cat(s)."
 end
